@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+{
+    UIView *superView;
+    
+    UILabel *lable01;
+    UILabel *lable02;
+    UILabel *lable03;
+    UILabel *lable04;
+    
+    UIView *viewCenter;
+}
 
 @end
 
